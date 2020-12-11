@@ -32,7 +32,7 @@ class Teacher(Human):
     def GetAll(self):
         all = super().TellAll()
         all = all + self.__subject + " " + self.__experience + " " + self.__qualificaiton
-        return all
+        return all 
 
 #test for Human class
 Human1 = Human("18 years", "6ft", "Alex")
